@@ -17,9 +17,9 @@ def calculate(a,operation,b):
   else:
     raise ValueError("Unknown operation")
 if __name__ == "__main__":
-  print(calculate(2,+,3))
-  print(calculate(7,-,2))
-  print(calculate(2,*,3))
-  print(calculate(4,/,1))
-  print(calculate(4,/,0))
-  print(calculate(2,%,9))
+  print(calculate(2,'+',3))
+  print(calculate(7,'-',2))
+  print(calculate(2,'*',3))
+  print(calculate(4,'/',1))
+  print(calculate(4,'/',0))
+  print(calculate(2,'%',9))
